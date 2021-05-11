@@ -68,7 +68,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/samuelsandoval/Downloads/Projects/googletest_demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/samuelsandoval/Downloads/Projects/googletest_demo/build
+CMAKE_BINARY_DIR = /Users/samuelsandoval/Downloads/Projects/googletest_demo/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -143,9 +143,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelsandoval/Downloads/Projects/googletest_demo/build/CMakeFiles /Users/samuelsandoval/Downloads/Projects/googletest_demo/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelsandoval/Downloads/Projects/googletest_demo/Build/CMakeFiles /Users/samuelsandoval/Downloads/Projects/googletest_demo/Build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelsandoval/Downloads/Projects/googletest_demo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/samuelsandoval/Downloads/Projects/googletest_demo/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -196,7 +196,7 @@ gmock: cmake_check_build_system
 
 # fast build rule for target.
 gmock/fast:
-	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
+	$(MAKE) -f .googletest/googlemock/CMakeFiles/gmock.dir/build.make .googletest/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 #=============================================================================
@@ -209,8 +209,125 @@ gmock_main: cmake_check_build_system
 
 # fast build rule for target.
 gmock_main/fast:
-	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
+	$(MAKE) -f .googletest/googlemock/CMakeFiles/gmock_main.dir/build.make .googletest/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named sample9_unittest
+
+# Build rule for target.
+sample9_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample9_unittest
+.PHONY : sample9_unittest
+
+# fast build rule for target.
+sample9_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample9_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample9_unittest.dir/build
+.PHONY : sample9_unittest/fast
+
+#=============================================================================
+# Target rules for targets named sample1_unittest
+
+# Build rule for target.
+sample1_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample1_unittest
+.PHONY : sample1_unittest
+
+# fast build rule for target.
+sample1_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample1_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample1_unittest.dir/build
+.PHONY : sample1_unittest/fast
+
+#=============================================================================
+# Target rules for targets named sample3_unittest
+
+# Build rule for target.
+sample3_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample3_unittest
+.PHONY : sample3_unittest
+
+# fast build rule for target.
+sample3_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample3_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample3_unittest.dir/build
+.PHONY : sample3_unittest/fast
+
+#=============================================================================
+# Target rules for targets named sample6_unittest
+
+# Build rule for target.
+sample6_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample6_unittest
+.PHONY : sample6_unittest
+
+# fast build rule for target.
+sample6_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample6_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample6_unittest.dir/build
+.PHONY : sample6_unittest/fast
+
+#=============================================================================
+# Target rules for targets named sample5_unittest
+
+# Build rule for target.
+sample5_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample5_unittest
+.PHONY : sample5_unittest
+
+# fast build rule for target.
+sample5_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample5_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample5_unittest.dir/build
+.PHONY : sample5_unittest/fast
+
+#=============================================================================
+# Target rules for targets named sample4_unittest
+
+# Build rule for target.
+sample4_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample4_unittest
+.PHONY : sample4_unittest
+
+# fast build rule for target.
+sample4_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample4_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample4_unittest.dir/build
+.PHONY : sample4_unittest/fast
+
+#=============================================================================
+# Target rules for targets named sample8_unittest
+
+# Build rule for target.
+sample8_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample8_unittest
+.PHONY : sample8_unittest
+
+# fast build rule for target.
+sample8_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample8_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample8_unittest.dir/build
+.PHONY : sample8_unittest/fast
+
+#=============================================================================
+# Target rules for targets named sample10_unittest
+
+# Build rule for target.
+sample10_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample10_unittest
+.PHONY : sample10_unittest
+
+# fast build rule for target.
+sample10_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample10_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample10_unittest.dir/build
+.PHONY : sample10_unittest/fast
+
+#=============================================================================
+# Target rules for targets named sample7_unittest
+
+# Build rule for target.
+sample7_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample7_unittest
+.PHONY : sample7_unittest
+
+# fast build rule for target.
+sample7_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample7_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample7_unittest.dir/build
+.PHONY : sample7_unittest/fast
 
 #=============================================================================
 # Target rules for targets named gtest_main
@@ -222,8 +339,21 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
-	$(MAKE) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
+	$(MAKE) -f .googletest/googletest/CMakeFiles/gtest_main.dir/build.make .googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named sample2_unittest
+
+# Build rule for target.
+sample2_unittest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sample2_unittest
+.PHONY : sample2_unittest
+
+# fast build rule for target.
+sample2_unittest/fast:
+	$(MAKE) -f .googletest/googletest/CMakeFiles/sample2_unittest.dir/build.make .googletest/googletest/CMakeFiles/sample2_unittest.dir/build
+.PHONY : sample2_unittest/fast
 
 #=============================================================================
 # Target rules for targets named gtest
@@ -235,7 +365,7 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
-	$(MAKE) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
+	$(MAKE) -f .googletest/googletest/CMakeFiles/gtest.dir/build.make .googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 main.o: main.cpp.o
@@ -282,6 +412,16 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... mytests"
+	@echo "... sample10_unittest"
+	@echo "... sample1_unittest"
+	@echo "... sample2_unittest"
+	@echo "... sample3_unittest"
+	@echo "... sample4_unittest"
+	@echo "... sample5_unittest"
+	@echo "... sample6_unittest"
+	@echo "... sample7_unittest"
+	@echo "... sample8_unittest"
+	@echo "... sample9_unittest"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
