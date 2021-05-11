@@ -11,6 +11,19 @@ make
 ./mytests
 ```
 
+## Compiling your Code
+
+To compile your code after any change do:
+```
+make
+```
+Then run
+```
+./mytests
+```
+
+
+
 Article I found that may help with the setup [Article](https://alexanderbussan.medium.com/getting-started-with-google-test-on-os-x-a07eee7ae6dc)
 
 
