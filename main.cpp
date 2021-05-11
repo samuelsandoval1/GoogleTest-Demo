@@ -20,7 +20,7 @@ TEST(Stack, pop){
     s0.push(1);
     s0.push(2);
     s0.pop();
-    ASSERT_EQ(s0.top(), 1);
+    ASSERT_EQ(s0.top(), 0);
 }
 
 

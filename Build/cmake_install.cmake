@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/samuelsandoval/Downloads/Projects/googletest_demo/Build/.googletest/cmake_install.cmake")
+  include("/Users/samuelsandoval/Downloads/Projects/googletest_demo/build/.googletest/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/samuelsandoval/Downloads/Projects/googletest_demo/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/samuelsandoval/Downloads/Projects/googletest_demo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
