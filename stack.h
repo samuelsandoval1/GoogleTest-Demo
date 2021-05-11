@@ -5,51 +5,40 @@ using namespace std;
 template <typename T>
 class Stack{
 public:
+   Stack(){
+       curr_size = 0;
+   }
    void push(T value){
-       topValue = value;
-       q.push(value);
+        curr_size++;  
+        q2.push(value);
+        while (!q1.empty()) {
+            q2.push(q1.front());
+            q1.pop();
+        }
+  
+        queue<int> q = q1;
+        q1 = q2;
+        q2 = q;
    }
  
    void pop(){
-       queue<T> tempQ;
-       if(q.empty()){
-           return;
-       }
-       int tempTopValue = -1;
-       while(q.size() > 1) {
-           tempTopValue = q.front();
-           tempQ.push(tempTopValue);
-           q.pop();
-       }
-       if(q.size() == 1){
-           topValue = tempQ.front();
-       }
-       q = tempQ;
+        if (q1.empty())
+            return;
+        q1.pop();
+        curr_size--;
    }
  
    T& top(){
-       return topValue;
-   }
- 
-   bool empty(){
-       return q.empty();
+    //    if (q1.empty())
+    //         throw("Error");
+        return q1.front();
    }
  
    size_t size(){
-       return q.size();
+       return curr_size;
    }
 private:
-   queue<T> q;
-   int topValue;
+    queue<int> q1, q2;
+    int curr_size;
 };
 
-
-
-// double summer(double arr[] , int size) {
-//   double sum = 0;
-//   for(int i = 0; i < size; i++)
-//   {
-//     sum += arr[i];
-//   }
-//   return sum;
-// }
