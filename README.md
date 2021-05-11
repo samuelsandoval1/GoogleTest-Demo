@@ -9,7 +9,9 @@
 3. Clone your forked repository by running the following command. Replace YOUR_GITHUB_USERNAME with your GitHub username.
 ```
 git clone https://github.com/YOUR_GITHUB_USERNAME/GoogleTest-Demo.git
-```
+``` 
+<br />
+
 ## Testing your Code ✅
 Go into the Build directory, compile cmake. Make sure to have cmake installed locally first!
 ```
@@ -18,6 +20,7 @@ cmake ..
 make
 ./mytests
 ```
+<br />
 
 ## Compiling your Code ⌨️
 
@@ -30,9 +33,8 @@ Then run
 ./mytests
 ```
 
-Helpful article: [GoogleTest Article]
-
 ---
+<br />
 
 Developed  by [samuelsandoval1]👨🏻‍💻
 
