@@ -6,23 +6,7 @@
 
 using namespace std;
 
-// TEST(IntegerInputsSuite, simpleSum){
-//     //first, set up any inputs to your
-//     const int SIZE = 3;
-//     double arr[SIZE] = {1, 2, 3};
-//     //then, make an assertion to test
-//     EXPECT_EQ(summer(arr, SIZE), 6) << "The sum is not correct";
-// }
-
-
-TEST(Stack, pop){
-    Stack<int> s0;
-    s0.push(1);
-    s0.push(2);
-    s0.pop();
-    ASSERT_EQ(s0.top(), 0);
-}
-
+// Implement unit tests to test the functionality of the Stack.h file
 
 int main(int argc, char **argv){
     testing::InitGoogleTest(&argc, argv);
