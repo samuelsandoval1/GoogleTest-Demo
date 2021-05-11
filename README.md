@@ -24,7 +24,7 @@ Then run
 
 
 
-Helpful article: [GoogleTest Articl](https://alexanderbussan.medium.com/getting-started-with-google-test-on-os-x-a07eee7ae6dc)
+Helpful article: [GoogleTest Article](https://alexanderbussan.medium.com/getting-started-with-google-test-on-os-x-a07eee7ae6dc)
 
 
 Developed  by [samuelsandoval1](https://github.com/samuelsandoval1)👨🏻‍💻
