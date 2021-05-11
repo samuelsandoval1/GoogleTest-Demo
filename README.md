@@ -2,7 +2,7 @@
 
 > This repository contains the source code for a technical demo showing students how to make Unit Tests using the Google Test framework.
 
-## How to Test your code
+## Testing your Code ✅
 Go into the Build directory, compile cmake. Make sure to have cmake installed locally first!
 ```
 cd Build  
@@ -11,7 +11,7 @@ make
 ./mytests
 ```
 
-## Compiling your Code
+## Compiling your Code ⌨️
 
 To compile your code after any change do:
 ```
