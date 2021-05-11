@@ -4,4 +4,4 @@
 *.out
 *.log
 *.swp
-Build/
+!Build/
