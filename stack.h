@@ -29,13 +29,11 @@ public:
    }
  
    T& top(){
-    //    if (q1.empty())
-    //         throw("Error");
         return q1.front();
    }
  
    size_t size(){
-       return curr_size;
+        return curr_size;
    }
 private:
     queue<int> q1, q2;
