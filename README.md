@@ -33,6 +33,8 @@ Then run
 ./mytests
 ```
 
+Helpful article: [GoogleTest Article]
+
 ---
 <br />
 
