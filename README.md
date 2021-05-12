@@ -1,6 +1,6 @@
 # GoogleTest Demo 📈
 
-> This repository contains the source code for a technical demo showing students how to make Unit Tests using the Google Test framework.
+> This repository contains the source code from a technical demo showing students how to make Unit Tests using the Google Test framework.
 
 
 ## Getting Started 😀
